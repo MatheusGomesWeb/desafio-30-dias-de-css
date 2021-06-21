@@ -2,10 +2,10 @@
 
 30 dias de CSS3, é um [desafio proposto por Milena Carecho](https://github.com/MilenaCarecho/30diasDeCSS), que visa melhorar as habilidades de codificação fazendo mini projetos diarios utilizando HTML5 e CSS3.
 
-- [Período do desafio](periodo-do-desafio)
-- [Regras gerais](regras-gerais)
-- [Regras para mim](regras-para-mim)
-- [Participe](participe)
+- [Período do desafio](#periodo-do-desafio)
+- [Regras gerais](#regras-gerais)
+- [Regras para mim](#regras-para-mim)
+- [Participe](#participe)
 - **Desafios**
   - [Dia 01 - Ícone de mídia social em camadas](01)
 
