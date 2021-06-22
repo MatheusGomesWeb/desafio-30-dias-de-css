@@ -7,19 +7,19 @@
 - [Regras para mim](#regras-para-mim)
 - [Participe](#participe)
 - **Desafios**
-  - [Dia 01 - Ícone de mídia social em camadas](01)
+  - [Dia 01 - Ícone de mídia social em camadas](https://matheusgomesweb.github.io/desafio-30-dias-de-css/01/01.html)
 
 ## Periodo do desafio
 
 **De**: 21-06-2021 á 21-07-2021 <br>
 
-01 - 02 - 03 - 04 - 05 - 06 - 07 - 08 - 09 - 10              
+<s>01</s> - 02 - 03 - 04 - 05 - 06 - 07 - 08 - 09 - 10              
 11 - 12 - 13 - 14 - 15 - 16 - 17 - 18 - 19 - 20     
 21 - 22 - 23 - 24 - 25 - 26 - 27 - 28 - 29 - 30   
 
 ## Lista de desafios
 
-- Dia 01 - Ícone de mídia social em camadas
+- <s>Dia 01 - Ícone de mídia social em camadas</s>
 - Dia 02 - Loader animado
 - Dia 03 - Mudança de cor de texto quando entra em outra div
 - Dia 04 - Botão com efeito
