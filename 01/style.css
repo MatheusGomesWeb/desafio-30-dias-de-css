@@ -41,10 +41,11 @@ main {
 /* Wrapper das imagens do icones, para não perder a animação no hover */
 
 .icons .icons-item {
-  width: 64px;
-  height: 94px;
+  width: 112px;
+  height: 128px;
   display: flex;
-  align-items: flex-end;
+  justify-content: center;
+  align-items: center;
 }
 
 /* Tamanho das imagens dos icones */
@@ -65,7 +66,7 @@ main {
 .icons .icons-item:hover img {
   transition: 0.3s;
   cursor: pointer;
-  transform: translate3d(0, -30px, 0) rotate(-30deg) skew(25deg);
+  transform: translate3d(0, -28px, 0) rotate(-30deg) skew(25deg);
 }
 
 /* Mudar a box-shadow dos icones */
