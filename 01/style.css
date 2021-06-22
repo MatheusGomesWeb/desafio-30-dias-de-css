@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  overflow-x: hidden;
+}
+
+body {
+  min-height: 100vh;
+}
+
+:root {
+  font-size: 16px;
+}
+
+/* centralizar o conteudo na tela */
+
+main {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+/* Social icons wrapper */
+
+.icons {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 94px;
+}
+
+/* Wrapper das imagens do icones, para não perder a animação no hover */
+
+.icons .icons-item {
+  width: 64px;
+  height: 94px;
+  display: flex;
+  align-items: flex-end;
+}
+
+/* Tamanho das imagens dos icones */
+
+.icons .icons-item img {
+  width: 64px;
+  height: 64px;
+  transition: 0.3s;
+  transform: rotate(-30deg) skew(25deg);
+}
+
+/* Animar ao passar o mouse por cima das imagens dos ícones */
+
+.icons .icons-item:hover {
+  cursor: pointer;
+}
+
+.icons .icons-item:hover img {
+  transition: 0.3s;
+  cursor: pointer;
+  transform: translate3d(0, -30px, 0) rotate(-30deg) skew(25deg);
+}
+
+/* Mudar a box-shadow dos icones */
+
+.icons .icons-item:hover img.icons-item__twitch {
+  box-shadow: -12px 12px 1px #301f4f, -24px 24px 2px #7d5abe, -36px 36px 2px #d4c8e9, -48px 48px 3px #040206;
+}
+
+.icons .icons-item:hover img.icons-item__pinterest {
+  box-shadow: -12px 12px 1px #490c0f, -24px 24px 2px #741417, -36px 36px 2px #dd333a, -48px 48px 3px #0f0203;
+}
+
+.icons .icons-item:hover img.icons-item__soundcloud {
+  box-shadow: -12px 12px 1px #441600, -24px 24px 2px #772700, -36px 36px 2px #dd4800, -48px 48px 3px #000;
+}
+
+.icons .icons-item:hover img.icons-item__whatsapp {
+  box-shadow: -12px 12px 1px #1b994a, -24px 24px 2px #b1f1c9, -36px 36px 2px #3ddd79, -48px 48px 3px #020904;
+}
