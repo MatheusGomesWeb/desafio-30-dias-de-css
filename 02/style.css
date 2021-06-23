@@ -14,6 +14,7 @@ html {
 
 body {
   min-height: 100vh;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 /* Centralizar conteudo na tela */
@@ -24,4 +25,49 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+/* Loader */
+
+.loader {
+  width: 300px;
+  height: 300px;
+  border-radius: 100%;
+  position: relative;
+  border: 2px solid rgba(0, 0, 0, .1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Texto de loading */
+
+.loader__text {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+/* Rotacionar elemento simulando o loading */
+
+@keyframes rotacionar {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.loader::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: none;
+  display: block;
+  position: absolute;
+  top: -2px;
+  left: 0;
+  border-radius: 100%;
+  border-top: 4px solid #262626;
+  animation: rotacionar 1s forwards linear infinite;
 }
