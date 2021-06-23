@@ -70,7 +70,7 @@ main {
   color: #262626;
   animation: pontinhos 1s forwards linear alternate-reverse infinite;
   margin-left: 2px;
-  display: block;
+  display: flex;
 }
 
 /* Rotacionar elemento simulando o loading */
