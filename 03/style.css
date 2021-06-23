@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  overflow-x: hidden;
+}
+
+:root {
+  font-size: 800%;
+}
+
+body {
+  min-height: 100vh;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Dividir as seções na tela */
+
+main {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Animar o texto da direita para esquerda */
+
+@keyframes toLeft {
+  from {
+    transform: translate3d(100%, 0, 0);
+  }
+  to {
+    transform: translate3d(-100%, 0, 0);
+  }
+}
+
+/* Seções que ocupam metade da tela */
+
+section {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow-x: hidden;
+}
+
+/* Primeira section */
+
+section:nth-child(1) {
+  border-right: 1px solid #1D2028;
+  background-color: #ebeced;
+}
+
+/* Segunda section */
+
+section:nth-child(2) {
+  border-left: 1px solid #ebeced;
+  background-color: #1D2028;
+}
+
+/* Primeiro h1 da section */
+
+section>h1 {
+  text-transform: uppercase;
+  will-change: transform;
+  animation: toLeft 10s forwards linear infinite;
+  white-space: nowrap;
+}
+
+/* Primeiro h1 da primeira section */
+
+section:nth-child(1)>h1 {
+  color: #1D2028;
+}
+
+/* Primeiro h1 da segunda section */
+
+section:nth-child(2)>h1 {
+  color: #ebeced;
+  position: relative;
+  left: -100%;
+}
