@@ -20,13 +20,18 @@ body {
 
 main {
   width: 100%;
-  height: 100vh;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding-left: 30px;
-  padding-right: 30px;
+  padding: 60px 30px;
+}
+
+@media(min-width: 599px) {
+  main {
+    padding: 0 30px;
+  }
 }
 
 /* Social icons wrapper */
@@ -35,7 +40,13 @@ main {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 94px;
+  gap: 30px;
+}
+
+@media(min-width: 599px) {
+  .icons {
+    gap: 94px;
+  }
 }
 
 /* Wrapper das imagens do icones, para não perder a animação no hover */
