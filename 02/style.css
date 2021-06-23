@@ -86,13 +86,13 @@ main {
 
 .loader::before {
   content: "";
-  width: 100%;
+  width: 101%;
   height: 100%;
   background-color: none;
   display: block;
   position: absolute;
   top: -2px;
-  left: 0;
+  left: -1px;
   border-radius: 100%;
   border-top: 4px solid #262626;
   animation: rotacionar 1s forwards linear infinite;
