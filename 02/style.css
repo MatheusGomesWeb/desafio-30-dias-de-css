@@ -30,8 +30,8 @@ main {
 /* Loader */
 
 .loader {
-  width: 260px;
-  height: 260px;
+  width: 220px;
+  height: 220px;
   border-radius: 100%;
   position: relative;
   border: 2px solid rgba(0, 0, 0, 0.1);
@@ -55,17 +55,15 @@ main {
 
 @keyframes pontinhos {
   from {
-    width: 0;
+    opacity: 0;
   }
   to {
-    width: auto;
+    opacity: 1;
   }
 }
 
 .loader__text::after {
   content: "...";
-  width: 5px;
-  overflow-x: hidden;
   font-size: 28px;
   color: #262626;
   animation: pontinhos 1s forwards linear alternate-reverse infinite;
