@@ -10,12 +10,13 @@
   - [Dia 01 - Ícone de mídia social em camadas](https://matheusgomesweb.github.io/desafio-30-dias-de-css/01/01.html)
   - [Dia 02 - Loader animado](https://matheusgomesweb.github.io/desafio-30-dias-de-css/02/02.html)
   - [Dia 03 - Mudança de cor de texto quando entra em outra div](https://matheusgomesweb.github.io/desafio-30-dias-de-css/03/03.html)
+  - [Dia 04 - Botão com efeito](https://matheusgomesweb.github.io/desafio-30-dias-de-css/04/04.html)
 
 ## Periodo do desafio
 
 **De**: 21-06-2021 á 21-07-2021 <br>
 
-<s>**01**</s> - <s>**02**</s> - <s>**03**</s> - 04 - 05 - 06 - 07 - 08 - 09 - 10              
+<s>**01**</s> - <s>**02**</s> - <s>**03**</s> - <s>**04**</s> - 05 - 06 - 07 - 08 - 09 - 10              
 11 - 12 - 13 - 14 - 15 - 16 - 17 - 18 - 19 - 20     
 21 - 22 - 23 - 24 - 25 - 26 - 27 - 28 - 29 - 30   
 
@@ -24,7 +25,7 @@
 - <s>**Dia 01 - Ícone de mídia social em camadas**</s>
 - <s>**Dia 02 - Loader animado**</s>
 - <s>**Dia 03 - Mudança de cor de texto quando entra em outra div**</s>
-- Dia 04 - Botão com efeito
+- <s>**Dia 04 - Botão com efeito**</s>
 - Dia 05 - Efeito pulsar
 - Dia 06 - Efeito lightning text
 - Dia 07 - Preloader animado
