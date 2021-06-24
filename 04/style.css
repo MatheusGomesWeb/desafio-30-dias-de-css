@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 16px;
+}
+
+html {
+  overflow-x: hidden;
+}
+
+body {
+  min-height: 100vh;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Centralizar botão na tela */
+
+main {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #343845;
+}
+
+/* Estilizar o primeiro botão do main */
+
+main>button {
+  width: 240px;
+  height: 60px;
+  background-color: #343845;
+  border: 4px solid #FAB3C2;
+  position: relative;
+  font-size: 18px;
+  color: #FAB3C2;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  transition: .3s;
+  outline: 0;
+}
+
+/* Mouse Hover do botão */
+
+main>button:hover {
+  cursor: pointer;
+}
+
+/* Adicionar  as barrinhas que serão animadas antes e depois do botão */
+
+main>button::before, main>button::after {
+  content: "";
+  width: 20px;
+  height: 4px;
+  background-color: #343845;
+  position: absolute;
+  transition: .3s;
+}
+
+/* Posicionar a barrinha antes */
+
+main>button::before {
+  top: -4px;
+  left: 20px;
+}
+
+/* Posicionar a barrinha depois */
+
+main>button::after {
+  bottom: -4px;
+  right: 20px;
+}
+
+/* Ao passar o mouse por cima do botão, animar a barrinha de cima  */
+
+main>button:hover::before {
+  transform: translate3d(160px, 0, 0);
+}
+
+/* Ao passar o mouse por cima do botão, animar a barrinha de baixo  */
+
+main>button:hover::after {
+  transform: translate3d(-160px, 0, 0);
+}
