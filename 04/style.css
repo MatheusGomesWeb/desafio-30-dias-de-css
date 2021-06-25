@@ -53,7 +53,7 @@ main>button:hover {
   cursor: pointer;
 }
 
-/* Adicionar  as barrinhas que serão animadas antes e depois do botão */
+/* Adicionar as barrinhas que serão animadas antes e depois do botão */
 
 main>button::before, main>button::after {
   content: "";
