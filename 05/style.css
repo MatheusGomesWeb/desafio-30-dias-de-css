@@ -27,3 +27,29 @@ main {
   align-items: center;
   background-color: #343845;
 }
+
+/* Animar box-shadow */
+
+@keyframes shadow {
+  from {
+    box-shadow: 0 0 0 0 rgba(24, 153, 104, 0.7);
+  }
+  to {
+    box-shadow: 0 0 0 140px rgba(55, 209, 201, 0);
+  }
+}
+
+/* Botão */
+
+main>button {
+  width: 240px;
+  height: 240px;
+  border-radius: 100%;
+  outline: 0;
+  border: none;
+  animation: shadow 1.5s forwards ease infinite;
+  background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+}
