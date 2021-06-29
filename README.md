@@ -31,7 +31,7 @@
 - <s>**Dia 04 - Botão com efeito**</s>
 - <s>**Dia 05 - Efeito pulsar**</s>
 - <s>**Dia 06 - Efeito lightning text**</s>
-- <s>**Dia 07 - Preloader animado</s>
+- <s>**Dia 07 - Preloader animado**</s>
 - Dia 08 - Coração batendo
 - Dia 09 - Pendulo de Newton
 - Dia 10 - Animação texto alternando
