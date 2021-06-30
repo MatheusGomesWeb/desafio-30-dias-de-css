@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 16px;
+}
+
+html {
+  overflow-x: hidden;
+}
+
+body {
+  min-height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Centralizar botão na tela */
+
+main {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1e1c0c;
+}
+
+/* Animar pendulo */
+
+@keyframes pendulo-right {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(-60deg);
+  }
+  50% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+@keyframes pendulo-left {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(60deg);
+  }
+  50% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+/* Pendulo */
+
+main>.pendulo {
+  min-width: 300px;
+  height: 300px;
+  border-top: 10px solid #f4f4f4;
+  display: flex;
+  justify-content: center;
+}
+
+/* Pendulo item */
+
+main>.pendulo .pendulo__item {
+  height: 100%;
+  width: 3px;
+  display: flex;
+  background-color: #f4f4f4;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  transform-origin: top;
+}
+
+/* cores dos pendulos */
+
+main>.pendulo .pendulo__item.red::after {
+  background-color: #DF3C35;
+}
+
+main>.pendulo .pendulo__item.orange::after {
+  background-color: #EA8240;
+}
+
+main>.pendulo .pendulo__item.green::after {
+  background-color: #69AF3B;
+}
+
+main>.pendulo .pendulo__item.blue::after {
+  background-color: #5EABE3;
+}
+
+main>.pendulo .pendulo__item.purple::after {
+  background-color: #7C52D2;
+}
+
+/* Margin em todos menos o ultimo pendulo__item */
+
+main>.pendulo .pendulo__item:not(:nth-last-child(1)) {
+  margin-right: 50px;
+}
+
+/* Bolinhas do pendulo */
+
+main>.pendulo .pendulo__item::after {
+  content: "";
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  background-color: white;
+  display: block;
+}
+
+/* Animar ultimo item */
+
+main>.pendulo .pendulo__item:nth-last-child(1) {
+  animation: pendulo-right 2s forwards ease-in infinite;
+}
+
+/* Animar primeiro item */
+
+main>.pendulo .pendulo__item:nth-child(1) {
+  animation: pendulo-left 2s forwards ease-in infinite;
+}
