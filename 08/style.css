@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 16px;
+}
+
+html {
+  overflow-x: hidden;
+}
+
+body {
+  min-height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Centralizar botão na tela */
+
+main {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1e1c0c;
+}
+
+/* coracao */
+
+main>.heart {
+  width: 50px;
+  height: 50px;
+  background-color: red;
+  display: flex;
+  position: relative;
+  transform: rotate(45deg);
+}
+
+main>.heart::before, main>.heart::after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  background-color: red;
+}
+
+main>.heart::after {
+  left: -25px;
+  bottom: 0;
+}
+
+main>.heart::before {
+  left: 0;
+  top: -25px;
+}
