@@ -28,6 +28,29 @@ main {
   background-color: #1e1c0c;
 }
 
+/* Bate coração */
+
+@keyframes bateCoracao {
+  0% {
+    transform: rotate(45deg) scale(1);
+  }
+  25% {
+    transform: rotate(45deg) scale(1);
+  }
+  30% {
+    transform: rotate(45deg) scale(1.4);
+  }
+  50% {
+    transform: rotate(45deg) scale(1.2);
+  }
+  70% {
+    transform: rotate(45deg) scale(1.4);
+  }
+  100% {
+    transform: rotate(45deg) scale(1);
+  }
+}
+
 /* coracao */
 
 main>.heart {
@@ -37,6 +60,7 @@ main>.heart {
   display: flex;
   position: relative;
   transform: rotate(45deg);
+  animation: bateCoracao 1s forwards linear infinite;
 }
 
 main>.heart::before, main>.heart::after {
