@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  overflow-x: hidden;
+}
+
+body {
+  height: 100vh;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+:root {
+  font-size: 36px;
+}
+
+main {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Botão */
+
+main>button {
+  width: 285px;
+  height: 42px;
+  background-color: #ffffff;
+  border: 2px solid green;
+  outline: 0;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.3s;
+  position: relative;
+  overflow: hidden;
+  color: green;
+}
+
+/*  Texto  */
+
+main>button:hover span {
+  color: #ffffff;
+  transition: 0.3s;
+  cursor: pointer;
+  z-index: 2;
+}
+
+/* Animar o before ao passar o mouse por cima do botão */
+
+main>button:hover::before {
+  content: "";
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  background-color: green;
+  animation: hover 0.3s forwards linear;
+  transition: 0.3s;
+}
+
+/* Animar o before */
+
+@keyframes hover {
+  from {
+    transform: translate3d(0, -100%, 0);
+  }
+  to {
+    transform: translate3d(0, 0, 0);
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+}
