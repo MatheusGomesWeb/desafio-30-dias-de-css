@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  overflow-x: hidden;
+}
+
+body {
+  height: 100vh;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+:root {
+  font-size: 16px;
+}
+
+main {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main>h1 {
+  background-color: red;
+  text-transform: uppercase;
+  font-size: 5rem;
+  background-clip: text;
+  color: transparent;
+  animation: bg 20s forwards linear infinite;
+  background-image: url("./images.png");
+}
+
+@keyframes bg {
+  from {
+    background-position: -100% -100%;
+  }
+  to {
+    background-position: 100% 100%;
+  }
+}
