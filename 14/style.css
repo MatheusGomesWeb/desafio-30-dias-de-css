@@ -33,6 +33,7 @@ main>h1 {
   color: transparent;
   animation: bg 20s forwards linear infinite;
   background-image: url("./images.png");
+  text-align: center;
 }
 
 @keyframes bg {
