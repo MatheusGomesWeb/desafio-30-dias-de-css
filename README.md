@@ -16,15 +16,16 @@
   - [Dia 07 - Preloader animado](https://matheusgomesweb.github.io/desafio-30-dias-de-css/07/07.html)
   - [Dia 08 - Coração batendo](https://matheusgomesweb.github.io/desafio-30-dias-de-css/08/08.html)
   - [Dia 09 - Pendulo de Newton](https://matheusgomesweb.github.io/desafio-30-dias-de-css/09/09.html)
-  - [Dia 10 - Animação texto alternando](https://matheusgomesweb.github.io/desafio-30-dias-de-css/10/10.html)
-  - [Dia 11 - Botão com efeito hover](https://matheusgomesweb.github.io/desafio-30-dias-de-css/11/11.html)
+  - [Dia 10 - Animação texto alternando](https://matheusgomesweb.github.io/desafio-30-dias-de-css/10/index.html)
+  - [Dia 11 - Botão com efeito hover](https://matheusgomesweb.github.io/desafio-30-dias-de-css/11/index.html)
+  - [Dia 12 - Efeito de preenchimento ao passar o mouse](https://matheusgomesweb.github.io/desafio-30-dias-de-css/12/index.html)
 
 ## Periodo do desafio
 
 **De**: 21-06-2021 á 21-07-2021 <br>
 
 <s>**01**</s> - <s>**02**</s> - <s>**03**</s> - <s>**04**</s> - <s>**05**</s> - <s>**06**</s> - <s>**07**</s> - <s>**08**</s> - <s>**09**</s> - <s>**10**</s>              
-<s>**11**</s> - 12 - 13 - 14 - 15 - 16 - 17 - 18 - 19 - 20     
+<s>**11**</s> - <s>**12**</s> - 13 - 14 - 15 - 16 - 17 - 18 - 19 - 20     
 21 - 22 - 23 - 24 - 25 - 26 - 27 - 28 - 29 - 30   
 
 ## Lista de desafios
@@ -40,7 +41,7 @@
 - <s>**Dia 09 - Pendulo de Newton**</s>
 - <s>**Dia 10 - Animação texto alternando**</s>
 - <s>**Dia 11 - Botão com efeito hover**</s>
-- Dia 12 - Efeito de preenchimento ao passar o mouse
+- <s>**Dia 12 - Efeito de preenchimento ao passar o mouse**</s>
 - Dia 13 - Loading com efeito
 - Dia 14 - Fundo de texto animado
 - Dia 15 - Texto flutuante
