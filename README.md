@@ -23,13 +23,14 @@
   - [Dia 14 - Fundo de texto animado](https://matheusgomesweb.github.io/desafio-30-dias-de-css/14/index.html)
   - [Dia 15 - Texto flutuante](https://matheusgomesweb.github.io/desafio-30-dias-de-css/15/index.html)
   - [Dia 16 - Botão com efeito](https://matheusgomesweb.github.io/desafio-30-dias-de-css/16/index.html)
+  - [Dia 17 - Loader animado](https://matheusgomesweb.github.io/desafio-30-dias-de-css/17/index.html)
 
 ## Periodo do desafio
 
 **De**: 21-06-2021 á 21-07-2021 <br>
 
 <s>**01**</s> - <s>**02**</s> - <s>**03**</s> - <s>**04**</s> - <s>**05**</s> - <s>**06**</s> - <s>**07**</s> - <s>**08**</s> - <s>**09**</s> - <s>**10**</s>              
-<s>**11**</s> - <s>**12**</s> - <s>**13**</s> - <s>**14**</s> - <s>**15**</s> - <s>**16**</s> - 17 - 18 - 19 - 20     
+<s>**11**</s> - <s>**12**</s> - <s>**13**</s> - <s>**14**</s> - <s>**15**</s> - <s>**16**</s> - <s>**17**</s> - 18 - 19 - 20     
 21 - 22 - 23 - 24 - 25 - 26 - 27 - 28 - 29 - 30   
 
 ## Lista de desafios
@@ -50,7 +51,7 @@
 - <s>**Dia 14 - Fundo de texto animado**</s>
 - <s>**Dia 15 - Texto flutuante**</s>
 - <s>**Dia 16 - Botão com efeito**</s>
-- Dia 17 - Loader animado
+- <s>**Dia 17 - Loader animado**</s>
 - Dia 18 - Texto esfumaçado
 - Dia 19 - Efeitos de animação de fundo de partículas
 - Dia 20 - Botão com efeito
