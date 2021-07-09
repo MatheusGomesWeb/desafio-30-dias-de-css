@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  overflow-x: hidden;
+}
+
+body {
+  height: 100vh;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+:root {
+  font-size: 16px;
+}
+
+main {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Texto */
+
+main>h1 {
+  text-transform: uppercase;
+  color: #FAC3C2;
+  position: relative;
+  font-size: 5rem;
+}
+
+main>h1::before {
+  content: "#30diasdecss";
+  text-transform: uppercase;
+  color: #F2554B;
+  cursor: pointer;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  overflow: hidden;
+  transition: width 0.3s;
+}
+
+main>h1:hover::before {
+  width: 100%;
+}
