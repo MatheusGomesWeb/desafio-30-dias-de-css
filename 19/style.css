@@ -81,7 +81,7 @@ main>.particula .particula__item {
 }
 
 main>.particula .particula__item:nth-child(1) {
-  top: 50%;
+  top: 40%;
   animation-direction: alternate-reverse;
 }
 
