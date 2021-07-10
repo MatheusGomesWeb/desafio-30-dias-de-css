@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  overflow: hidden;
+}
+
+body {
+  height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #000000;
+}
+
+:root {
+  font-size: 16px;
+}
+
+main {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@keyframes rotacionar {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Rotacionar as particulas */
+
+main>.particula {
+  width: 20%;
+  height: 20%;
+  border-radius: 100%;
+  position: relative;
+  animation: rotacionar 3s forwards linear infinite;
+}
+
+main>.particula:nth-child(odd) {
+  width: 100%;
+  height: 100%;
+  animation: rotacionar 10s forwards linear infinite;
+}
+
+main>.particula:not(:nth-child(odd)) {
+  width: 150%;
+  height: 150%;
+  animation: rotacionar 10s forwards linear infinite reverse;
+}
+
+@keyframes cores {
+  from {
+    filter: hue-rotate(0);
+  }
+  to {
+    filter: hue-rotate(360deg);
+  }
+}
+
+/* Bolinhas */
+
+main>.particula .particula__item {
+  width: 12px;
+  height: 12px;
+  background-color: red;
+  display: block;
+  border-radius: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  animation: cores 10s forwards linear infinite;
+}
+
+main>.particula .particula__item:nth-child(1) {
+  top: 50%;
+  animation-direction: alternate-reverse;
+}
+
+main>.particula .particula__item:nth-child(2) {
+  top: 20%;
+  left: 50%;
+  animation-direction: alternate;
+}
+
+main>.particula .particula__item:nth-child(3) {
+  top: 60%;
+  left: 90%;
+  animation-direction: alternate-reverse;
+}
+
+main>.particula .particula__item:nth-child(4) {
+  top: 100%;
+  left: 100%;
+  animation-direction: alternate;
+}

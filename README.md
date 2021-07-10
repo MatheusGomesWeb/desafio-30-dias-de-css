@@ -25,13 +25,14 @@
   - [Dia 16 - Botão com efeito](https://matheusgomesweb.github.io/desafio-30-dias-de-css/16/index.html)
   - [Dia 17 - Loader animado](https://matheusgomesweb.github.io/desafio-30-dias-de-css/17/index.html)
   - [Dia 18 - Texto esfumaçado](https://matheusgomesweb.github.io/desafio-30-dias-de-css/18/index.html)
+  - [Dia 19 - Efeitos de animação de fundo de partículas](https://matheusgomesweb.github.io/desafio-30-dias-de-css/19/index.html)
 
 ## Periodo do desafio
 
 **De**: 21-06-2021 á 21-07-2021 <br>
 
 <s>**01**</s> - <s>**02**</s> - <s>**03**</s> - <s>**04**</s> - <s>**05**</s> - <s>**06**</s> - <s>**07**</s> - <s>**08**</s> - <s>**09**</s> - <s>**10**</s>              
-<s>**11**</s> - <s>**12**</s> - <s>**13**</s> - <s>**14**</s> - <s>**15**</s> - <s>**16**</s> - <s>**17**</s> - <s>**18**</s> - 19 - 20     
+<s>**11**</s> - <s>**12**</s> - <s>**13**</s> - <s>**14**</s> - <s>**15**</s> - <s>**16**</s> - <s>**17**</s> - <s>**18**</s> - <s>**19**</s> - 20     
 21 - 22 - 23 - 24 - 25 - 26 - 27 - 28 - 29 - 30   
 
 ## Lista de desafios
@@ -54,7 +55,7 @@
 - <s>**Dia 16 - Botão com efeito**</s>
 - <s>**Dia 17 - Loader animado**</s>
 - <s>**Dia 18 - Texto esfumaçado**</s>
-- Dia 19 - Efeitos de animação de fundo de partículas
+- <s>**Dia 19 - Efeitos de animação de fundo de partículas**</s>
 - Dia 20 - Botão com efeito
 - Dia 21 - Esferas quicando
 - Dia 22 - Icones com efeito
