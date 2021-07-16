@@ -29,6 +29,7 @@
   - [Dia 20 - Botão com efeito](https://matheusgomesweb.github.io/desafio-30-dias-de-css/20/index.html)
   - [Dia 21 - Esferas quicando](https://matheusgomesweb.github.io/desafio-30-dias-de-css/21/index.html)
   - [Dia 22 - Ícones com efeito](https://matheusgomesweb.github.io/desafio-30-dias-de-css/22/index.html)
+  - [Dia 23 - Botão com efeito](https://matheusgomesweb.github.io/desafio-30-dias-de-css/23/index.html)
 
 ## Periodo do desafio
 
@@ -36,7 +37,7 @@
 
 <s>**01**</s> - <s>**02**</s> - <s>**03**</s> - <s>**04**</s> - <s>**05**</s> - <s>**06**</s> - <s>**07**</s> - <s>**08**</s> - <s>**09**</s> - <s>**10**</s>              
 <s>**11**</s> - <s>**12**</s> - <s>**13**</s> - <s>**14**</s> - <s>**15**</s> - <s>**16**</s> - <s>**17**</s> - <s>**18**</s> - <s>**19**</s> - <s>**20**</s>     
-<s>**21**</s> - <s>**22**</s> - 23 - 24 - 25 - 26 - 27 - 28 - 29 - 30   
+<s>**21**</s> - <s>**22**</s> - <s>**23**</s> - 24 - 25 - 26 - 27 - 28 - 29 - 30   
 
 ## Lista de desafios
 
@@ -62,7 +63,7 @@
 - <s>**Dia 20 - Botão com efeito**</s>
 - <s>**Dia 21 - Esferas quicando**</s>
 - <s>**Dia 22 - Icones com efeito**</s>
-- Dia 23 - Botão com efeito hover
+- <s>**Dia 23 - Botão com efeito hover**</s>
 - Dia 24 - Preloader animado
 - Dia 25 - Checkbox animado
 - Dia 26 - Loading com efeito
