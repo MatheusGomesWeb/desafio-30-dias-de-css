@@ -1,8 +1,8 @@
 # [Desafio 30 dias de CSS](https://github.com/MilenaCarecho/30diasDeCSS) 
 
-30 dias de CSS3, é um [desafio proposto por Milena Carecho](https://github.com/MilenaCarecho/30diasDeCSS), que visa melhorar as habilidades de codificação fazendo mini projetos diarios utilizando HTML5 e CSS3.
+30 dias de CSS3, é um [desafio proposto por Milena Carecho](https://github.com/MilenaCarecho/30diasDeCSS), que visa melhorar as habilidades de codificação fazendo mini projetos diários utilizando HTML5 e CSS3.
 
-- [Período do desafio](#periodo-do-desafio)
+- [Período do desafio](#período-do-desafio)
 - [Regras gerais](#regras-gerais)
 - [Regras para mim](#regras-para-mim)
 - [Participe](#participe)
@@ -15,7 +15,7 @@
   - [Dia 06 - Efeito lightning text](https://matheusgomesweb.github.io/desafio-30-dias-de-css/06/06.html)
   - [Dia 07 - Preloader animado](https://matheusgomesweb.github.io/desafio-30-dias-de-css/07/07.html)
   - [Dia 08 - Coração batendo](https://matheusgomesweb.github.io/desafio-30-dias-de-css/08/08.html)
-  - [Dia 09 - Pendulo de Newton](https://matheusgomesweb.github.io/desafio-30-dias-de-css/09/09.html)
+  - [Dia 09 - Pêndulo de Newton](https://matheusgomesweb.github.io/desafio-30-dias-de-css/09/09.html)
   - [Dia 10 - Animação texto alternando](https://matheusgomesweb.github.io/desafio-30-dias-de-css/10/index.html)
   - [Dia 11 - Botão com efeito hover](https://matheusgomesweb.github.io/desafio-30-dias-de-css/11/index.html)
   - [Dia 12 - Efeito de preenchimento ao passar o mouse](https://matheusgomesweb.github.io/desafio-30-dias-de-css/12/index.html)
@@ -33,14 +33,15 @@
   - [Dia 24 - Preloader animado](https://matheusgomesweb.github.io/desafio-30-dias-de-css/24/index.html)
   - [Dia 25 - Checkbox animado](https://matheusgomesweb.github.io/desafio-30-dias-de-css/25/index.html)
   - [Dia 26 - Loading com efeito](https://matheusgomesweb.github.io/desafio-30-dias-de-css/26/index.html)
+  - [Dia 27 - Efeito pulsar](https://matheusgomesweb.github.io/desafio-30-dias-de-css/27/index.html)
 
-## Periodo do desafio
+## Período do desafio
 
 **De**: 21-06-2021 á 21-07-2021 <br>
 
 <s>**01**</s> - <s>**02**</s> - <s>**03**</s> - <s>**04**</s> - <s>**05**</s> - <s>**06**</s> - <s>**07**</s> - <s>**08**</s> - <s>**09**</s> - <s>**10**</s>              
 <s>**11**</s> - <s>**12**</s> - <s>**13**</s> - <s>**14**</s> - <s>**15**</s> - <s>**16**</s> - <s>**17**</s> - <s>**18**</s> - <s>**19**</s> - <s>**20**</s>     
-<s>**21**</s> - <s>**22**</s> - <s>**23**</s> - <s>**24**</s> - <s>**25**</s> - <s>**26**</s> - 27 - 28 - 29 - 30   
+<s>**21**</s> - <s>**22**</s> - <s>**23**</s> - <s>**24**</s> - <s>**25**</s> - <s>**26**</s> - <s>**27**</s> - 28 - 29 - 30   
 
 ## Lista de desafios
 
@@ -52,7 +53,7 @@
 - <s>**Dia 06 - Efeito lightning text**</s>
 - <s>**Dia 07 - Preloader animado**</s>
 - <s>**Dia 08 - Coração batendo**</s>
-- <s>**Dia 09 - Pendulo de Newton**</s>
+- <s>**Dia 09 - Pêndulo de Newton**</s>
 - <s>**Dia 10 - Animação texto alternando**</s>
 - <s>**Dia 11 - Botão com efeito hover**</s>
 - <s>**Dia 12 - Efeito de preenchimento ao passar o mouse**</s>
@@ -65,12 +66,12 @@
 - <s>**Dia 19 - Efeitos de animação de fundo de partículas**</s>
 - <s>**Dia 20 - Botão com efeito**</s>
 - <s>**Dia 21 - Esferas quicando**</s>
-- <s>**Dia 22 - Icones com efeito**</s>
+- <s>**Dia 22 - Ícones com efeito**</s>
 - <s>**Dia 23 - Botão com efeito hover**</s>
 - <s>**Dia 24 - Preloader animado**</s>
 - <s>**Dia 25 - Checkbox animado**</s>
 - <s>**Dia 26 - Loading com efeito**</s>
-- Dia 27 - Efeito pulsar
+- <s>**Dia 27 - Efeito pulsar**</s>
 - Dia 28 - Cor do background mudando
 - Dia 29 - Menu responsivo com Media Queries
 - Dia 30 - Fogos de artificio
@@ -78,7 +79,7 @@
 ## Regras gerais
 
 - Realizar um projeto por dia
-- Compartilhar o progresso nas mídias sociais (Twitter, Facebook, Linkedin etc...), utilizando a hashtag #30DiasDeCSS
+- Compartilhar o progresso nas mídia sociais (Twitter, Facebook, Linkedin etc...), utilizando a hashtag #30DiasDeCSS
 - O desafio diário deverá ser concluído até 23:59
 
 ## Regras para mim
