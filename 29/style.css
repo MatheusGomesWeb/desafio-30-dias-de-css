@@ -23,7 +23,6 @@ header {
   width: 100%;
   display: flex;
   flex-direction: column;
-  background-color: #5A1D46;
 }
 
 /* Nav */
@@ -34,9 +33,16 @@ header {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
-  background-color: white;
   padding: 20px;
   border-top: 5px solid #F93C00;
+}
+
+/* Tablet-up */
+
+@media (min-width: 599px) {
+  .menu {
+    background-color: #F93C00;
+  }
 }
 
 /* Hamburguer */
@@ -156,4 +162,19 @@ header {
 
 .menu ul li.active a:hover {
   text-decoration: underline;
+}
+
+/* Tablet-up */
+
+@media (min-width: 599px) {
+  .menu ul li a {
+    color: #ffffff;
+  }
+  .menu ul li a:hover {
+    color: #000000;
+  }
+  .menu ul li.active a {
+    color: #ffffff;
+    font-weight: bold;
+  }
 }
