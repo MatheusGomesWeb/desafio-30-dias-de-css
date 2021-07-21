@@ -1,0 +1,159 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  overflow: hidden;
+}
+
+body {
+  height: 100vh;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+:root {
+  font-size: 16px;
+}
+
+/* header */
+
+header {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: #5A1D46;
+}
+
+/* Nav */
+
+.menu {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  background-color: white;
+  padding: 20px;
+  border-top: 5px solid #F93C00;
+}
+
+/* Hamburguer */
+
+.menu input[type="checkbox"] {
+  width: 35px;
+  height: 30px;
+  margin-bottom: 30px;
+  position: relative;
+  cursor: pointer;
+  appearance: none;
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+/* Tablet-up */
+
+@media (min-width: 599px) {
+  .menu input[type="checkbox"] {
+    display: none;
+  }
+}
+
+/* Traços */
+
+.menu input[type="checkbox"]::before, .menu input[type="checkbox"]::after {
+  content: "";
+  display: block;
+  width: 100%;
+  border-radius: 1px;
+  transition: 0.3s;
+}
+
+.menu input[type="checkbox"]::before {
+  height: 100%;
+  box-shadow: 0 4px 0 #000000, 0 -4px 0 #000000;
+}
+
+.menu input[type="checkbox"]::after {
+  height: 4px;
+  background-color: #000000;
+  position: absolute;
+  top: 44%;
+}
+
+/* Botao do menu aberto */
+
+.menu input[type="checkbox"]:checked::before {
+  transform: rotate(45deg);
+  box-shadow: none;
+  position: absolute;
+  top: 16px;
+  height: 4px;
+  background-color: #F93C00;
+}
+
+.menu input[type="checkbox"]:checked::after {
+  transform: rotate(-45deg);
+  top: 16px;
+  background-color: #F93C00;
+}
+
+/* Abre e fecha o menu */
+
+.menu input[type="checkbox"]:checked+ul {
+  display: flex;
+  animation: menu 0.3s forwards linear;
+}
+
+/*  Animar abertura do menu */
+
+@keyframes menu {
+  from {
+    transform: translate3d(100%, 0, 0);
+  }
+  to {
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+/* Opções do menu */
+
+.menu ul {
+  width: 100%;
+  display: none;
+  flex-direction: column;
+  list-style: none;
+  gap: 20px;
+  text-align: center;
+}
+
+/*  Tablet-up */
+
+@media (min-width: 599px) {
+  .menu ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+}
+
+.menu ul li a {
+  font-size: 14px;
+  color: #000000;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.menu ul li a:hover {
+  color: #F93C00;
+  transition: 0.3s;
+}
+
+.menu ul li.active a {
+  color: #F93C00;
+}
+
+.menu ul li.active a:hover {
+  text-decoration: underline;
+}
