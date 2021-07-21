@@ -36,6 +36,7 @@
   - [Dia 27 - Efeito pulsar](https://matheusgomesweb.github.io/desafio-30-dias-de-css/27/index.html)
   - [Dia 28 - Cor do background mudando](https://matheusgomesweb.github.io/desafio-30-dias-de-css/28/index.html)
   - [Dia 29 - Menu responsivo com Media Queries](https://matheusgomesweb.github.io/desafio-30-dias-de-css/29/index.html)
+  - [Dia 30 - Fogos de artificio](https://matheusgomesweb.github.io/desafio-30-dias-de-css/30/index.html)
 
 ## Período do desafio
 
