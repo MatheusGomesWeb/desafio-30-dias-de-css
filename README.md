@@ -34,6 +34,8 @@
   - [Dia 25 - Checkbox animado](https://matheusgomesweb.github.io/desafio-30-dias-de-css/25/index.html)
   - [Dia 26 - Loading com efeito](https://matheusgomesweb.github.io/desafio-30-dias-de-css/26/index.html)
   - [Dia 27 - Efeito pulsar](https://matheusgomesweb.github.io/desafio-30-dias-de-css/27/index.html)
+  - [Dia 28 - Cor do background mudando](https://matheusgomesweb.github.io/desafio-30-dias-de-css/28/index.html)
+  - [Dia 29 - Menu responsivo com Media Queries](https://matheusgomesweb.github.io/desafio-30-dias-de-css/29/index.html)
 
 ## Período do desafio
 
@@ -41,7 +43,7 @@
 
 <s>**01**</s> - <s>**02**</s> - <s>**03**</s> - <s>**04**</s> - <s>**05**</s> - <s>**06**</s> - <s>**07**</s> - <s>**08**</s> - <s>**09**</s> - <s>**10**</s>              
 <s>**11**</s> - <s>**12**</s> - <s>**13**</s> - <s>**14**</s> - <s>**15**</s> - <s>**16**</s> - <s>**17**</s> - <s>**18**</s> - <s>**19**</s> - <s>**20**</s>     
-<s>**21**</s> - <s>**22**</s> - <s>**23**</s> - <s>**24**</s> - <s>**25**</s> - <s>**26**</s> - <s>**27**</s> - <s>**28**</s> - 29 - 30   
+<s>**21**</s> - <s>**22**</s> - <s>**23**</s> - <s>**24**</s> - <s>**25**</s> - <s>**26**</s> - <s>**27**</s> - <s>**28**</s> - <s>**29**</s> - 30   
 
 ## Lista de desafios
 
@@ -73,7 +75,7 @@
 - <s>**Dia 26 - Loading com efeito**</s>
 - <s>**Dia 27 - Efeito pulsar**</s>
 - <s>**Dia 28 - Cor do background mudando**</s>
-- Dia 29 - Menu responsivo com Media Queries
+- <s>**Dia 29 - Menu responsivo com Media Queries**</s>
 - Dia 30 - Fogos de artificio
 
 ## Regras gerais
