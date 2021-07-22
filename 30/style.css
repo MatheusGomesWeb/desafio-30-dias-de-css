@@ -10,9 +10,147 @@ html {
 
 body {
   height: 100vh;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #0D0304;
 }
 
 :root {
   font-size: 16px;
+}
+
+main {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 30px;
+}
+
+/* Fogos  */
+
+.fogos {
+  width: 200px;
+  height: 200px;
+  background-color: transparent;
+  display: block;
+  border-radius: 100%;
+  position: relative;
+  animation: fogos 3s forwards ease infinite;
+}
+
+/* Bolinhar preta no meio */
+
+.fogos::before {
+  content: "";
+  width: 35%;
+  height: 30%;
+  background-color: #0D0304;
+  display: block;
+  position: absolute;
+  top: 35%;
+  left: 30%;
+  z-index: 1;
+  border-radius: 100%;
+  animation: estourar 1s forwards ease infinite;
+}
+
+/* Estourar o fogos */
+
+@keyframes estourar {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(5);
+  }
+}
+
+/* Posicionar os fogos */
+
+.fogos:nth-child(1) {
+  top: 30%;
+  left: -30%;
+}
+
+.fogos:nth-child(1)::before {
+  animation-delay: 1s;
+}
+
+.fogos:nth-child(2) {
+  top: 30%;
+  left: 20%;
+}
+
+.fogos:nth-child(2)::before {
+  animation-delay: 0.5s;
+}
+
+.fogos:nth-child(3) {
+  top: 70%;
+  left: 10%;
+}
+
+.fogos:nth-child(3)::before {
+  animation-delay: 0.2s;
+}
+
+.fogos:nth-child(4) {
+  top: 10%;
+  right: 20%;
+}
+
+.fogos:nth-child(4)::before {
+  animation-delay: 0.6s;
+}
+
+/* As faiscas */
+
+.fogos .fogos__faisca {
+  position: absolute;
+  top: 0;
+  left: 45%;
+  width: 2px;
+  height: 100%;
+  background-color: #D88136;
+  display: block;
+}
+
+/* Rotacionar para formar um circulo */
+
+.fogos .fogos__faisca:nth-child(1) {
+  transform: rotate(30deg);
+}
+
+.fogos .fogos__faisca:nth-child(2) {
+  transform: rotate(60deg);
+}
+
+.fogos .fogos__faisca:nth-child(3) {
+  transform: rotate(90deg);
+}
+
+.fogos .fogos__faisca:nth-child(4) {
+  transform: rotate(120deg);
+}
+
+.fogos .fogos__faisca:nth-child(5) {
+  transform: rotate(150deg);
+}
+
+.fogos .fogos__faisca:nth-child(6) {
+  transform: rotate(180deg);
+}
+
+/* Animar o scale para passar a impressão que os fogos estão explodindo */
+
+@keyframes fogos {
+  from {
+    opacity: 0;
+    transform: scale(0);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
 }
